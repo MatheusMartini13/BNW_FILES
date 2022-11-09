@@ -1,0 +1,78 @@
+.pp {color: #717171; font-family: Lexend Deca, sans-serif; font-size:13px; text-align: justify; line-height: 120%}
+.j2{color: #FFFFFF; font-family: Montserrat; font-size:2rem;}
+.j2:link{color: #FFFFFF; font-weight: bold;font-family: Montserrat; font-size:2rem; margin-top:20px;}
+.j2:visited{color: #FFFFFF; font-weight: bold;font-family: Montserrat; font-size:2rem; margin-top:20px;}
+.j2:active{color: #FFFFFF; font-weight: bold;font-family: Montserrat; font-size:2rem; margin-top:20px;}
+.j2:hover{color: #F60B0E;font-weight: bold;font-family: Montserrat; font-size:2rem; margin-top:20px;} 
+
+.j1{color: #717171; font-family: Montserrat; font-size:12px; text-align: justify;}
+.j1:link{color: #717171; font-weight: bold;font-family: Montserrat; font-size: 0.6875rem; line-height:1.2em;letter-spacing: .15em;}
+.j1:visited{color: #717171; font-weight: bold;font-family: Montserrat; font-size: 0.6875rem; line-height:1.2em;letter-spacing: .15em;}
+.j1:active{color: #717171; font-weight: bold;font-family: Montserrat; font-size: 0.6875rem; line-height:1.2em;letter-spacing: .15em;}
+.j1:hover{color: #F60B0E;font-weight: bold;font-family: Montserrat; font-size: 0.6875rem; line-height:1.2em;letter-spacing: .15em;} 
+
+.main_post{position: relative; z-index: 5;}
+.etapa_2{z-index: 1;}
+.falas {color: #717171; font-family: Lexend Deca, sans-serif; font-size:13px; text-align: justify; line-height: 120%}
+.falas2 {color: #b48948; font-family: Lexend Deca, sans-serif; font-size:13px; text-align: justify; line-height: 120%}
+
+.imgr {border-radius: 8px;  border: 2px solid #343434;}
+
+.buta {
+  background-color: #343434;
+  border: 1px solid #545454;
+border-radius: 8px;
+  color: #878787;
+width: 40px;
+height: 10px;
+  padding: 6px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin-top: -50px;
+  margin-bottom: -20px;
+  cursor: pointer;
+}
+.buta:hover {
+  transition: 0.3s;
+  background-color: #272727;
+  border: 1px solid #545454;
+  color: white;
+width: 40px;
+height: 10px;
+  padding: 6px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 0px 0px;
+  margin-top: -50px;
+  margin-bottom: -20px;
+  cursor: pointer;
+}
+
+.imagem_externa
+{
+     width: 575px;
+     height: 360px;
+     overflow: hidden; 
+     z-index: 1;
+}
+.imagem_interna
+{
+     opacity: 0.8;
+     z-index: 1;
+     height: 100%;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     transition: all 0.5s ease;
+     transform: scale(1.1);
+}
+.imagem_interna:hover
+{
+     z-index: 1;
+     opacity: 1;
+     transform: scale(1.0);
+}
