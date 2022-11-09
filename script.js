@@ -1,6 +1,7 @@
 const box1 = document.getElementById("postHere")
 const box2 = document.getElementById("code")
 const box3 = document.getElementById("titPost")
+const box4 = document.getElementById("previewCode")
 
 function createScript() {
   let text = box1.value
@@ -30,4 +31,9 @@ function createScript() {
 [/dohtml]`
 
   box2.value = realText
+}
+
+function previewScript(){
+  box4.style.display = "block"
+  box4.innerHTML = box2.value.slice(9,-9)
 }
